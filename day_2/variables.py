@@ -20,3 +20,23 @@ print(type(year))
 print(type(is_married))
 print(type(is_true))
 print(type(is_light))
+
+
+len(first_name)
+len(last_name)
+
+num_one = 5
+num_two = 4
+total = num_one + num_two
+diff = num_one - num_two
+product = num_one * num_two
+division = num_one / num_two
+remainder = num_one % num_two
+exp = num_one ** num_two
+floor_division = num_one // num_two
+
+
+first_name = input("what is you first name: ")
+last_name = input("what is your last name: ")
+country = input("where is your country")
+age = input("what is your age: ")
