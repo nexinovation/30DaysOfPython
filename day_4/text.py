@@ -8,5 +8,10 @@
 # print(input())
 # print(input())
 
-numofcharacters = len(input())
-print(numofcharacters)
+# numofcharacters = len(input())
+# print(numofcharacters)
+
+# variable
+name = input("what is your name? ")
+lenth = len(name)
+print(lenth)
