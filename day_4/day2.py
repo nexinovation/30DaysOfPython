@@ -15,9 +15,19 @@
 
 # float
 
-3.14159
+# 3.14159
 
 # boolean
 
-True
-False
+# True
+# False
+
+
+# to check the data type you are working with you use the TYPE() function
+
+numchar = len(input("what is your name? "))
+# print(type(numchar))
+
+# you can change the data type of integers to strings
+newnumchar = str(numchar)
+print("your name has " + newnumchar + " characters")
