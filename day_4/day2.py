@@ -34,8 +34,28 @@
 
 # you can convert different data types
 
-a = float(123)
-print(type(a))
+# a = float(123)
+# print(type(a))
 
-# print(70 + float("100.5"))
-print(str(70) + str(100))
+# # print(70 + float("100.5"))
+# print(str(70) + str(100))
+
+
+# matimatical expresion
+# 3 + 5 addition
+# 7 - 4 subtraction
+# 3 * 2 multiplication
+# 6 / 3 division
+# 2 ** 2 exponent
+
+# in python we have a order in which the matimatical opertion are executed
+
+# PEMDAS
+# () parentheses
+# ** exponent
+# * multiplication
+# / division
+# + addition
+# - subtraction
+
+print(int(3 * (3 + 3) / 3 - 3))
