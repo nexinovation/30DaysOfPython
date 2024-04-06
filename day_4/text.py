@@ -18,9 +18,9 @@
 
 # day 1 final project (band name generator)
 
-print("Welcome to my band name generator\n")
+print("Welcome to my band name generator.")
 city = input("What is your city?\n")
 petName = input("What is your pet name?\n")
 bandname = city + " " + petName
 
-print("Your band name is " + bandname)
+print("Your band name could be " + bandname)
