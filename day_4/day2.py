@@ -9,6 +9,15 @@
 
 # integers
 
-print(123 + 345)
+# print(123 + 345)
 
 # 123_456_789
+
+# float
+
+3.14159
+
+# boolean
+
+True
+False
