@@ -25,9 +25,17 @@
 
 # to check the data type you are working with you use the TYPE() function
 
-numchar = len(input("what is your name? "))
-# print(type(numchar))
+# numchar = len(input("what is your name? "))
+# # print(type(numchar))
 
-# you can change the data type of integers to strings
-newnumchar = str(numchar)
-print("your name has " + newnumchar + " characters")
+# # you can change the data type of integers to strings
+# newnumchar = str(numchar)
+# print("your name has " + newnumchar + " characters")
+
+# you can convert different data types
+
+a = float(123)
+print(type(a))
+
+# print(70 + float("100.5"))
+print(str(70) + str(100))
