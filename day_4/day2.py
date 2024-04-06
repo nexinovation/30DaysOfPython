@@ -3,4 +3,12 @@
 
 # String type
 
-print("Hello"[0])
+# print("Hello"[4])
+
+# print("123" + "345")
+
+# integers
+
+print(123 + 345)
+
+# 123_456_789
