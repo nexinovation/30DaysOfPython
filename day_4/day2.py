@@ -92,15 +92,17 @@
 # day 2 final project a tip calculator
 print("Welcome to the tip calculator")
 initialBill = float(input("What was your total bill? $"))
-amountOfTip = float(
+amountOfTip = int(
     input("How much tip would you like to give? 10, 12, or 15? "))
-split = float(input("how many people to split the bill? "))
+split = int(input("how many people to split the bill? "))
 
-finaltip = amountOfTip / 100
-bill = initialBill * finaltip
-totalamount = initialBill + bill
-result = totalamount / split
-total = round(result, 2)
+finaltip = amountOfTip / 100 * initialBill + initialBill
+total = round(finaltip / split, 2)
+# finaltip = amountOfTip / 100
+# bill = initialBill * finaltip
+# totalamount = initialBill + bill
+# result = totalamount / split
+# total = round(result, 2)
 
-print(f"each person should pay: ${total}")
+print(f"Each person should pay: ${total}")
 # print(type(initialBill))
