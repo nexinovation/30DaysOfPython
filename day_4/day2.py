@@ -64,9 +64,26 @@
 # how to round numbers to integer eg. 2.5 would be roiunded to 3
 # and to do this we use the round function
 
-print(round(8 / 3))
+# print(round(8 / 3))
 
 # you can also round a number to a specific precision in decimal places
 # like if i want to round it to 2 decimal places i would use the (,) and right the number of places i eant to round it to
 
-print(round(8 / 3, 2))
+# print(round(8 / 3, 2))
+
+# iinstead of saying divinding (/) i can also use the floor division where i have two forward slashes (//)
+
+
+# f strings
+# instead of doing this with the plus sign you can use the f string
+# score = 0
+
+# print("yourscore is " + str(score))
+
+# eg
+score = 0
+height = 1.8
+iswinning = True
+# f strings
+print(
+    f"your score is {score}, your hight is {height}, your are winning is {iswinning}")
