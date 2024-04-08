@@ -20,3 +20,7 @@
 # <=  less than or equal to
 # ==    equal to
 # !=    not equal to
+
+
+# The modulo is written as a percentage sign (%) in Python.
+# It gives you the remainder after a division
