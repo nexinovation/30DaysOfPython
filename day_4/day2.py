@@ -96,8 +96,10 @@ amountOfTip = int(
     input("How much tip would you like to give? 10, 12, or 15? "))
 split = int(input("how many people to split the bill? "))
 
-finaltip = amountOfTip / 100 * initialBill + initialBill
-total = round(finaltip / split, 2)
+finaltip = (initialBill / split) * (1 + amountOfTip / 100)
+total = round(finaltip, 2)
+# finaltip = amountOfTip / 100 * initialBill + initialBill
+# total = round(finaltip / split, 2)
 # finaltip = amountOfTip / 100
 # bill = initialBill * finaltip
 # totalamount = initialBill + bill
