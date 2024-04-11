@@ -47,6 +47,7 @@
 # 3 * 2 multiplication
 # 6 / 3 division
 # 2 ** 2 exponent
+# 20 % 2 modulo i.e to check for remainder of a number
 
 # in python we have a order in which the matimatical opertion are executed
 
