@@ -60,3 +60,21 @@ elif ThridCondition > 0:
     print("Not leap year")
 else:
     print("leap year")
+
+
+# multipe if statement
+#    if / elif /else
+#   if condition1:
+    #   do A
+#   elif condition2:
+#       do B
+#   else:
+#       do C
+
+# multipe if condition
+# if condition1:
+#  do A
+# if condition2:
+#  do B
+# if condition3:
+#  do C
