@@ -81,27 +81,41 @@
 
 
 # another code challenge pizza delivery
-print("Thank you for choosing Python Pizza Deliveries!")
-size = input()  # What size pizza do you want? S, M, or L
-add_pepperoni = input()  # Do you want pepperoni? Y or N
-extra_cheese = input()  # Do you want extra cheese? Y or N
+# print("Thank you for choosing Python Pizza Deliveries!")
+# size = input()  # What size pizza do you want? S, M, or L
+# add_pepperoni = input()  # Do you want pepperoni? Y or N
+# extra_cheese = input()  # Do you want extra cheese? Y or N
 
-bill = 0
-if size == "S":
-    bill = 15
-if size == "M":
-    bill = 20
-elif size == "L":
-    bill = 25
+# bill = 0
+# if size == "S":
+#     bill = 15
+# if size == "M":
+#     bill = 20
+# elif size == "L":
+#     bill = 25
 
-# print(bill)
-if add_pepperoni == "Y":
-    if bill == 15:
-        bill += 2
-    elif bill == 20:
-        bill += 3
-    elif bill == 25:
-        bill += 3
-if extra_cheese == "Y":
-    bill += 1
-print(f"Your final bill is: ${bill}.")
+# # print(bill)
+# if add_pepperoni == "Y":
+#     if bill == 15:
+#         bill += 2
+#     elif bill == 20:
+#         bill += 3
+#     elif bill == 25:
+#         bill += 3
+# if extra_cheese == "Y":
+#     bill += 1
+# print(f"Your final bill is: ${bill}.")
+
+
+# logical operator
+# how to check or multipe condition in the same line of code
+# if condition1 & condition2 & condition3:
+#   do this
+# else:
+#   do this
+
+# logical operator
+
+# A and B    to use the and operator both condition has to be true
+# C or D .   to check if only one of the condition is true you can use the or
+# not E .    it reverses a cindition if its false its true and if its true its false
