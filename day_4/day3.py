@@ -44,3 +44,19 @@
 #   do this
 
 # quiz bmi 2.0
+
+# quiz 2 leap year calculator
+year = int(input())
+
+FirstCondition = year % 4
+SecondCondition = year % 100
+ThridCondition = year % 400
+
+if FirstCondition > 0:
+    print("Not leap year")
+elif SecondCondition != 0:
+    print("leap year")
+elif ThridCondition > 0:
+    print("Not leap year")
+else:
+    print("leap year")
