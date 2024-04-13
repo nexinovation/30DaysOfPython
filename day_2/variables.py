@@ -1,4 +1,4 @@
-# Day 2: 30 Days of Python programming
+# Day 2: 30 Days of Python programming.
 first_name = "Senator"
 last_name = "Olorunnisola"
 full_name = "Senator Olorunnisola Eniola"
