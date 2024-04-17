@@ -20,7 +20,7 @@
 #     print("Sorry, you have to grow taller before you can ride the rollercoaster")
 
 
-# comparison operators
+# comparison operators.
 # >   greater than
 # <   less than
 # >=  greater than or equal to
