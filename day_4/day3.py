@@ -1,4 +1,4 @@
-# conditional statements (if/else)
+# conditional statements (if/else).
 # eg if condition:
 #   do this
 # else:
@@ -29,11 +29,11 @@
 # !=    not equal to
 
 
-# The modulo is written as a percentage sign (%) in Python.
-# It gives you the remainder after a division
+# The modulo is written as a percentage sign (%) in Python,
+# It gives you the remainder after a division.
 
 
-# nesting if statement
+# nesting if statement.
 
 # if condition:
 #   if another condition:
@@ -43,7 +43,7 @@
 # else:
 #   do this
 
-# quiz bmi 2.0
+# quiz bmi 2.0.
 
 # quiz 2 leap year calculator
 # year = int(input())
@@ -62,7 +62,7 @@
 #     print("leap year")
 
 
-# multipe if statement
+# multipe if statement.
 #    if / elif /else
 #   if condition1:
 #   do A
@@ -71,7 +71,7 @@
 #   else:
 #       do C
 
-# multipe if condition
+# multipe if condition.
 # if condition1:
 #  do A
 # if condition2:
@@ -80,7 +80,7 @@
 #  do C
 
 
-# another code challenge pizza delivery
+# another code challenge pizza delivery.
 # print("Thank you for choosing Python Pizza Deliveries!")
 # size = input()  # What size pizza do you want? S, M, or L
 # add_pepperoni = input()  # Do you want pepperoni? Y or N
@@ -107,14 +107,14 @@
 # print(f"Your final bill is: ${bill}.")
 
 
-# logical operator
-# how to check or multipe condition in the same line of code
+# logical operator.
+# how to check or multipe condition in the same line of code,
 # if condition1 & condition2 & condition3:
 #   do this
 # else:
 #   do this
 
-# logical operator
+# logical operator.
 
 # A and B    to use the and operator both condition has to be true
 # C or D .   to check if only one of the condition is true you can use the or
